@@ -6,6 +6,9 @@ You can run `run.py` to do run a simple test:
 * by default, run `stress --cpu 16` for 600s and let cool for 60s
 * generate graph w/ matplotlib
 
+![sample output](https://raw.githubusercontent.com/lhl/amd-laptop-testing/master/sample-graph.png)
+
+
 ## Requirements
 A `requirements.txt` is included for Python 3 dependencies. 
 

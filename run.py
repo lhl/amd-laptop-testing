@@ -41,6 +41,7 @@ def logger(keep_logging):
     clock = [float(x.split()[-1]) for x in clock]
     clock = round(statistics.mean(clock))
 
+    print('  {},{},{},{}'.format(int(tick),temp, power, clock))
     log.write('{},{},{},{}\n'.format(int(tick),temp, power, clock))
 
     # Next second
